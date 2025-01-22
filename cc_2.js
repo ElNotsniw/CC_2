@@ -18,3 +18,14 @@ let employee = {name: "Winston Le", age: 21, deparment: "Finance", isActive: "Ye
 employee.deparment = "Benefits"
 employee.position = "Assistant"
 console.log(employee)
+
+let customers = [
+    {name: "Leonard", email: "Leonard@gmail.com", purchaseAmount: 100},
+    {name: "Steven", email: "Steven@gmail.com", purchaseAmount: 150},
+    {name: "Justin", email: "Justin@gmail.com", purchaseAmount: 200},
+];
+
+customers.push({name: "Sam", email: "Sam@gmail.com", purchaseAmount: 250});
+
+console.log(customers)
+
